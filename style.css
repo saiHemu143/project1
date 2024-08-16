@@ -1,0 +1,135 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Poppins", sans-serif;
+    font-style: normal;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rgb(27, 23, 23);
+    color: aqua;
+    scroll-behavior: smooth;
+}
+
+.flexClass {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.underlineRemove {
+    text-decoration: none;
+    color: white;
+}
+
+.headings {
+    color: rgb(10, 255, 255);
+    text-transform: uppercase;
+    text-decoration: underline;
+}
+
+.img {
+    display: flex;
+    justify-content: center;
+}
+
+.imgSet {
+    height: 7em;
+}
+
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color:rgb(46, 43, 43) ;
+    width: 90%;
+    height: 100px;
+    margin:50px 65px 0 50px;
+    border: 3px solid grey;
+    border-radius: 30px;
+    padding: 5px;
+    position: static
+}
+
+nav img {
+    width: 4em;
+    height: 4em;
+    border-radius: 30px;
+}
+
+nav .btnSearch {
+    width: 5em;
+    height: 2em;
+    border: 2px solid whitesmoke;
+    border-radius: 4px;
+    margin: 10px;
+    background-color: aqua;
+    text-align: center;
+    cursor: pointer;
+}
+
+.items {
+    font-size: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 60%;
+    height: 40%;
+    padding: 5px;
+    list-style-type: none;
+}
+
+.items a {
+    text-decoration: none;
+    color: orange;
+}
+
+.items a:link:hover,.items a:hover{
+    color: aqua;
+    background-color: rgba(0, 0, 0, 0.534);
+}
+
+body input:hover{
+    background-color: red;
+}
+.items li {
+    padding: 10px;
+}
+
+footer .link {
+    margin: 10px;
+}
+
+.link img {
+    height: 20px;
+}
+
+.container .readmore {
+    color: aqua;
+    background-color: rgb(27, 23, 23);;
+    border: 1px solid aqua;
+    border-radius: 4px;
+    padding: 10px;
+    margin-left: 35%;
+    margin-top: 10px;
+}
+
+.container {
+    width: 50%;
+    min-height: 300px;
+    /* border: 2px solid rgb(36, 70, 70); */
+    padding: 26px;
+    margin: 10px;
+    border-radius: 5px;
+}
+
+main {
+    display: grid;
+    place-items: center;
+    grid-template-columns: 1fr 1fr;
+    row-gap: 30px;
+}
